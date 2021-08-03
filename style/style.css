@@ -3,7 +3,7 @@ body {
     align-content: center;
     margin: 50px;   }
 .logo-head {
-    background-color: rgb(34, 31, 31);
+    background-color:#808080;
     display: grid;
 grid-template-columns: auto auto auto auto auto;
 column-gap: normal;
@@ -21,7 +21,7 @@ margin: 30px;
 padding: 30 20;
     ;}
 .logo-head > img {
-  color: aliceblue;
+  color:black;
   margin: 30px;
 }
 #hero-img{
@@ -50,14 +50,11 @@ font-size: 50 px;
 }
 
 .call{
-    border: black;
-  
+  font-size: 100px;
 }
  
-
-
 footer{
-    background-color: rgb(151, 129, 129);
-    height: 70px;
+    background-color:#808080;
+    height: 90px;
 }
 
