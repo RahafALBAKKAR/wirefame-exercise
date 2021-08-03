@@ -10,6 +10,7 @@ column-gap: normal;
  
 }
   .logo-head > nav {
+
       height: 60px;
     text-align: center;
     align-items: center;
@@ -48,6 +49,10 @@ padding: 30 20;
  text-align: left;
 font-size: 50 px;
 }
+p ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
 
 .call{
   font-size: 100px;
@@ -56,5 +61,6 @@ font-size: 50 px;
 footer{
     background-color:#808080;
     height: 90px;
+    width: 1050px;
 }
 
