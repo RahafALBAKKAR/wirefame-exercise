@@ -1,8 +1,63 @@
+body {
+    width: 1050px;
+    align-content: center;
+    margin: 50px;   }
 .logo-head {
-    background-color: #DDD;
+    background-color: rgb(34, 31, 31);
+    display: grid;
+grid-template-columns: auto auto auto auto auto;
+column-gap: normal;
+ 
 }
-nav{
+  .logo-head > nav {
+      height: 60px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-size: 30px;
+    color: aliceblue;
+float: right;
+margin: 30px;
+padding: 30 20;
+    ;}
+.logo-head > img {
+  color: aliceblue;
+  margin: 30px;
+}
+#hero-img{
+    float: center 10;
+    margin: 20px;
+}
+.sub-banner{
+    display: grid;
+    grid-template-columns: auto auto auto;
+ 
+ margin: 20px; 
+}
+
+#img-section{
+    margin: 20px;}
+
+.featuerd{
+    display: grid;
+    grid-template-rows: auto auto auto;
     float: right;
-    padding: auto;
-margin: auto
-;}
+    position:relative;
+    right: 1000 px;
+}
+/* 
+.featuerd {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+
+  } */
+ 
+  
+  /* .featuerd > h1{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  } */
