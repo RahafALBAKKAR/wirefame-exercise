@@ -35,29 +35,29 @@ padding: 30 20;
  margin: 20px; 
 }
 
-#img-section{
-    margin: 20px;}
-
 .featuerd{
     display: grid;
-    grid-template-rows: auto auto auto;
-    float: right;
-    position:relative;
-    right: 1000 px;
+    grid-template-columns: auto auto ;
 }
-/* 
-.featuerd {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 10px;
-    padding: 10px;
+.featuerd> img {
+  margin: 20px;
+}
 
-  } */
- 
+.featuerd > p {
+ margin: 20px;
+ text-align: left;
+font-size: 50 px;
+}
+
+.call{
+    border: black;
   
-  /* .featuerd > h1{
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-  } */
+}
+ 
+
+
+footer{
+    background-color: rgb(151, 129, 129);
+    height: 70px;
+}
+
